@@ -1,0 +1,385 @@
+Update the existing Cinevo movie-booking interface into a functional, modern 
+cinema discovery and booking experience.
+
+The product name is "FABULA".
+The AI movie assistant is called "NIA".
+
+Keep the overall visual inspiration from District by Zomato, PVR Cinemas, and 
+modern movie-booking products, but do not copy their branding, logos, colors, 
+or exact layouts. Make the interface feel original, premium, responsive, and 
+AI-first.
+
+VISUAL DIRECTION
+
+- Desktop-first responsive design at 1440px width.
+- Use a warm off-white background with deep charcoal text and premium dark 
+  surfaces for selected sections.
+- Use a cinematic accent gradient from violet/purple to coral/orange.
+- Use rounded cards with 16px to 20px corner radius.
+- Use clean modern typography with large confident headings.
+- Use generous whitespace and strong visual hierarchy.
+- Use subtle hover animations, card elevation, smooth transitions, and skeleton 
+  loading states.
+- Ensure good contrast, readable text, visible focus states, and keyboard 
+  accessibility.
+- Do not use fake broken image icons. Always show a graceful poster placeholder 
+  when an image is unavailable.
+
+TOP NAVIGATION
+
+Create a sticky top navigation bar.
+
+Left side:
+- Cinevo wordmark.
+- Location selector showing "Chennai, Tamil Nadu".
+- Small location-pin icon.
+
+Center:
+- For You
+- Movies
+- Events
+- Dining
+- Activities
+
+Right side:
+- Search icon
+- Notification icon
+- User avatar with the initial "K"
+
+The active navigation item should use a subtle purple-to-orange underline or 
+pill highlight.
+
+INTERACTIVE HERO PROMPT
+
+Place a prominent AI search and chat input directly below the navbar.
+
+Default placeholder:
+"TellNiawhat you want to watch..."
+
+Supporting hint below the input:
+"Try: Find a funny movie tonight, recommend a thriller, or book 2 seats."
+
+This must be a real interactive text input, not static text.
+
+Interaction requirements:
+- Clicking anywhere inside the hero prompt focuses the input.
+- The user must be able to type freely.
+- Include a visible blinking cursor when focused.
+- Pressing Enter submits the prompt.
+- Clicking the send button submits the prompt.
+- The send button should remain disabled when the input is empty.
+- Pressing Shift+Enter creates a new line.
+- On submit, open the Novi chat panel from the right side.
+- Transfer the typed text into the first user message in the chat.
+- Show a short loading state such as "Novi is finding the best options..."
+- Display a sample AI response containing movie recommendation cards.
+- Keep the typed message visible in the conversation.
+- After submission, clear the hero input and return focus to the chat input.
+- Include quick prompt chips below the input:
+  - "What's trending?"
+  - "Movie for tonight"
+  - "Something under 2 hours"
+  - "Book 2 seats"
+
+Example interaction:
+User types:
+"Find me a feel-good Tamil movie tonight near Chennai"
+
+Novi responds:
+"I found these options near you. Would you like the earliest show, 
+the best-rated option, or seats together?"
+
+Show the hero prompt in a slightly elevated glass-style container with:
+- AI sparkle icon
+- Text input
+- Clear button when text exists
+- Send arrow button
+- Optional microphone icon
+- Focus ring using the accent gradient
+
+FEATURED MOVIE HERO
+
+Below the interactive prompt, create a featured movie carousel.
+
+Each slide should contain:
+- Large movie poster or backdrop on the right
+- Movie title
+- Certificate
+- Language
+- Genre chips
+- Runtime
+- Short synopsis
+- Release date
+- Primary "Book Tickets" button
+- Secondary "Watch Trailer" button
+- Carousel arrows and pagination dots
+
+Use realistic movie content but make the data easy to replace with API data.
+
+RECOMMENDED FOR YOU
+
+Create a section titled:
+
+"Recommended for You"
+
+Add an AI label:
+"Curated by Novi"
+
+Display a horizontally scrollable row of movie cards.
+
+Each card must include:
+- Accurate movie poster image
+- Movie title
+- Year
+- Language
+- Genre
+- Rating
+- Runtime
+- Small AI explanation, such as:
+  "Because you like action thrillers"
+  "Popular near Chennai this weekend"
+  "A good fit for a 2-hour plan"
+- "View details" action
+- "Book now" action
+
+Add a small "Why this pick?" link that opens a compact tooltip or modal 
+explaining the recommendation.
+
+MOVIE POSTER DATA INTEGRATION
+
+Prepare the design and data layer to use TMDB API for accurate movie posters, 
+backdrops, titles, genres, ratings, cast, runtime, and synopsis.
+
+Use the following integration behavior:
+
+- Search movies using TMDB search results.
+- Retrieve movie details using the selected TMDB movie ID.
+- Retrieve poster and backdrop paths from TMDB.
+- Build poster URLs from the TMDB image base URL and returned poster path.
+- Never construct image URLs from a movie title.
+- Store the TMDB movie ID with every movie card.
+- Use the selected movie ID when opening the movie detail page.
+- Use a local fallback dataset if the API key is unavailable.
+- Use local placeholder posters only when the API returns no image.
+- Add a small attribution item in the footer or About/Credits area:
+  "This product uses the TMDB API but is not endorsed or certified by TMDB."
+
+Use these conceptual data fields:
+
+{
+  id,
+  tmdbId,
+  title,
+  originalTitle,
+  posterUrl,
+  backdropUrl,
+  overview,
+  releaseDate,
+  runtime,
+  genres,
+  language,
+  certificate,
+  rating,
+  voteCount,
+  cast,
+  showtimes
+}
+
+Do not hardcode poster URLs into individual components. Centralize movie 
+data in a movies service or API layer so the frontend can later connect to 
+a real backend.
+
+If live API connectivity cannot be implemented inside the prototype, create 
+a clean mock service with the same interface:
+
+- searchMovies(query)
+- getMovieDetails(tmdbId)
+- getTrendingMovies()
+- getRecommendedMovies(preferences)
+- getMovieShowtimes(tmdbId, date, city)
+
+Use realistic fallback poster URLs or placeholder assets in the mock data, but 
+keep the API integration boundary clearly separated.
+
+MOVIE LIST SECTIONS
+
+Create these sections below Recommended for You:
+
+1. "This Week's Releases"
+2. "Only in Theatres"
+3. "Popular Near You"
+
+Add filter pills:
+- All
+- Tamil
+- English
+- Hindi
+- Telugu
+- New Releases
+- IMAX
+- 3D
+
+The active filter should update the visible card state in the prototype.
+
+MOVIE DETAIL PAGE
+
+When a user clicks a movie card, open a movie detail view or route.
+
+Include:
+- Backdrop hero
+- Poster
+- Title
+- Certificate
+- Language
+- Runtime
+- Rating
+- Release date
+- Genres
+- Synopsis
+- Cast and crew
+- Trailer button
+- "Ask Novi about this movie" input
+- Sticky "Book Tickets" button
+
+The movie detail page must use the selected movie's ID and display the 
+corresponding poster and details rather than a generic static movie.
+
+NOVI CHAT PANEL
+
+Create a persistent floating AI assistant button in the bottom-right corner.
+
+Button label:
+"Novi"
+
+Use:
+- Friendly circular avatar
+- AI sparkle icon
+- Subtle gradient ring
+- Hover tooltip: "Ask Novi"
+
+When clicked, open a right-side chat drawer approximately 400px wide.
+
+Chat drawer contents:
+- Header: "Novi"
+- Subtitle: "Your movie concierge"
+- Close button
+- Conversation history
+- User and assistant message styles
+- Movie recommendation cards inside assistant responses
+- Showtime cards inside assistant responses
+- Seat-selection summaries inside assistant responses
+- Quick reply chips
+- Text input
+- Send button
+- Optional microphone button
+
+Suggested initial message:
+
+"Hi, I'm Novi. Tell me your mood, preferred language, location, 
+or how many seats you need."
+
+Suggested quick replies:
+- "Find a movie for tonight"
+- "What's popular near me?"
+- "Recommend something like an action thriller"
+- "Help me choose seats"
+
+When Novi recommends a movie, show a rich inline card with:
+- Accurate poster
+- Title
+- Rating
+- Runtime
+- Language
+- "View movie"
+- "Showtimes"
+- "Book now"
+
+SEAT SELECTION SCREEN
+
+Create a modern seat-selection screen with:
+- Movie summary
+- Theatre name
+- Date selector
+- Showtime selector
+- Curved screen indicator
+- Seat rows with labels
+- Available, selected, booked, and premium states
+- Selected-seats list
+- Price breakdown
+- Total amount
+- "Confirm seats" button
+
+Add an AI helper near the seat map:
+
+"Need help picking seats? Ask Novi"
+
+If clicked, open chat with suggested prompts:
+- "Find 2 seats together"
+- "Choose seats near the back"
+- "Avoid the first two rows"
+- "Find the cheapest available seats"
+
+BOOKING CONFIRMATION
+
+Create a confirmation screen with:
+- Success state
+- Movie poster
+- Movie title
+- Theatre
+- Date and time
+- Selected seats
+- Booking ID
+- Mock payment status
+- QR-code placeholder
+- "Add to calendar"
+- "Download ticket"
+- "Back to home"
+
+RESPONSIVE BEHAVIOR
+
+For tablet:
+- Reduce card widths.
+- Keep the hero prompt full-width.
+- Convert the chat drawer to 360px width.
+
+For mobile:
+- Collapse navigation into a menu.
+- Make the hero prompt full-width and prominent.
+- Make the Novi chat panel full-screen.
+- Make movie cards horizontally scrollable.
+- Make the seat map horizontally scrollable or pinch-zoomable.
+- Keep the booking summary sticky at the bottom.
+
+PROTOTYPE INTERACTIONS TO IMPLEMENT
+
+Implement these clickable flows:
+
+1. Click hero prompt → focus text input.
+2. Type a message → send button becomes active.
+3. Press Enter or click Send → open Novi chat.
+4. Show submitted message in chat.
+5. Show assistant loading state.
+6. Show recommendation cards.
+7. Click a recommendation → open movie details.
+8. Click "Showtimes" → open showtime selection.
+9. Click showtime → open seat selection.
+10. Select seats → update selected-seat summary and price.
+11. Click "Confirm seats" → show booking confirmation.
+12. Click "Ask Novi" near seats → open chat with seat-related context.
+
+Create reusable components for:
+- Navbar
+- HeroPrompt
+- MovieCard
+- RecommendationCard
+- FilterPills
+- ChatDrawer
+- ChatMessage
+- ShowtimeCard
+- SeatMap
+- BookingSummary
+- BookingConfirmation
+- PosterImageWithFallback
+
+Prioritize functional interaction and a convincing end-to-end demo over adding 
+extra pages or decorative elements.
