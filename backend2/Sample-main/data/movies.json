@@ -1,0 +1,66 @@
+[
+  {
+    "id": "m1",
+    "title": "Hasi Toh Phasi",
+    "genres": ["comedy"],
+    "language": "Hindi",
+    "runtime_minutes": 165,
+    "rating": 7.2
+  },
+  {
+    "id": "m2",
+    "title": "Dhoom Returns",
+    "genres": ["comedy", "action"],
+    "language": "Hindi",
+    "runtime_minutes": 120,
+    "rating": 7.8
+  },
+  {
+    "id": "m3",
+    "title": "Rogue Protocol",
+    "genres": ["action", "thriller"],
+    "language": "English",
+    "runtime_minutes": 140,
+    "rating": 8.1
+  },
+  {
+    "id": "m4",
+    "title": "Bhoot Bangla",
+    "genres": ["horror"],
+    "language": "Hindi",
+    "runtime_minutes": 110,
+    "rating": 6.5
+  },
+  {
+    "id": "m5",
+    "title": "Laugh Out Loud",
+    "genres": ["comedy", "romance"],
+    "language": "English",
+    "runtime_minutes": 95,
+    "rating": 7.0
+  },
+  {
+    "id": "m6",
+    "title": "Zindagi Ke Rang",
+    "genres": ["drama"],
+    "language": "Hindi",
+    "runtime_minutes": 150,
+    "rating": 8.5
+  },
+  {
+    "id": "m7",
+    "title": "Tiger Force",
+    "genres": ["action"],
+    "language": "Hindi",
+    "runtime_minutes": 135,
+    "rating": 7.4
+  },
+  {
+    "id": "m8",
+    "title": "Happy Family",
+    "genres": ["family", "comedy"],
+    "language": "Hindi",
+    "runtime_minutes": 125,
+    "rating": 7.6
+  }
+]

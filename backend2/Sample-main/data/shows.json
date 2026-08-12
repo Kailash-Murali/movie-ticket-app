@@ -1,0 +1,3234 @@
+[
+    {
+        "id": "s1",
+        "movie_id": "m1",
+        "cinema": "PVR Phoenix",
+        "screen": 1,
+        "time": "14:00",
+        "price": 250,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "booked"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "booked"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "booked"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "booked"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s2",
+        "movie_id": "m1",
+        "cinema": "INOX Central",
+        "screen": 2,
+        "time": "20:00",
+        "price": 300,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "booked"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "booked"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "booked"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "booked"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "booked"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s3",
+        "movie_id": "m2",
+        "cinema": "PVR Phoenix",
+        "screen": 2,
+        "time": "17:30",
+        "price": 390,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "booked"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "booked"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "booked"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "booked"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s4",
+        "movie_id": "m2",
+        "cinema": "INOX Central",
+        "screen": 1,
+        "time": "19:45",
+        "price": 420,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "booked"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "booked"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s5",
+        "movie_id": "m3",
+        "cinema": "PVR Phoenix",
+        "screen": 3,
+        "time": "21:00",
+        "price": 550,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "booked"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "booked"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "booked"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "booked"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "booked"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "booked"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s6",
+        "movie_id": "m3",
+        "cinema": "INOX Central",
+        "screen": 3,
+        "time": "18:00",
+        "price": 500,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "booked"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "booked"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "booked"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s7",
+        "movie_id": "m4",
+        "cinema": "PVR Phoenix",
+        "screen": 1,
+        "time": "22:00",
+        "price": 200,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "booked"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s8",
+        "movie_id": "m4",
+        "cinema": "INOX Central",
+        "screen": 2,
+        "time": "23:00",
+        "price": 180,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "booked"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "booked"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "booked"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s9",
+        "movie_id": "m5",
+        "cinema": "PVR Phoenix",
+        "screen": 2,
+        "time": "12:00",
+        "price": 350,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "booked"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "booked"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s10",
+        "movie_id": "m5",
+        "cinema": "INOX Central",
+        "screen": 1,
+        "time": "15:30",
+        "price": 380,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "booked"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "booked"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "booked"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s11",
+        "movie_id": "m6",
+        "cinema": "PVR Phoenix",
+        "screen": 3,
+        "time": "16:00",
+        "price": 450,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "booked"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "booked"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "booked"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s12",
+        "movie_id": "m6",
+        "cinema": "INOX Central",
+        "screen": 3,
+        "time": "20:30",
+        "price": 480,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "booked"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "booked"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s13",
+        "movie_id": "m7",
+        "cinema": "PVR Phoenix",
+        "screen": 1,
+        "time": "22:30",
+        "price": 400,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "booked"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "booked"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s14",
+        "movie_id": "m7",
+        "cinema": "INOX Central",
+        "screen": 2,
+        "time": "19:00",
+        "price": 380,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "booked"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "booked"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "booked"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s15",
+        "movie_id": "m8",
+        "cinema": "PVR Phoenix",
+        "screen": 2,
+        "time": "10:00",
+        "price": 280,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "booked"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "booked"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "s16",
+        "movie_id": "m8",
+        "cinema": "INOX Central",
+        "screen": 1,
+        "time": "13:00",
+        "price": 300,
+        "seats": [
+            {
+                "id": "A1",
+                "row": "A",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "A2",
+                "row": "A",
+                "number": 2,
+                "status": "booked"
+            },
+            {
+                "id": "A3",
+                "row": "A",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "A4",
+                "row": "A",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "A5",
+                "row": "A",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "A6",
+                "row": "A",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "A7",
+                "row": "A",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "A8",
+                "row": "A",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "B1",
+                "row": "B",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "B2",
+                "row": "B",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "B3",
+                "row": "B",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "B4",
+                "row": "B",
+                "number": 4,
+                "status": "booked"
+            },
+            {
+                "id": "B5",
+                "row": "B",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "B6",
+                "row": "B",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "B7",
+                "row": "B",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "B8",
+                "row": "B",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "C1",
+                "row": "C",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "C2",
+                "row": "C",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "C3",
+                "row": "C",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "C4",
+                "row": "C",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "C5",
+                "row": "C",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "C6",
+                "row": "C",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "C7",
+                "row": "C",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "C8",
+                "row": "C",
+                "number": 8,
+                "status": "available"
+            },
+            {
+                "id": "D1",
+                "row": "D",
+                "number": 1,
+                "status": "available"
+            },
+            {
+                "id": "D2",
+                "row": "D",
+                "number": 2,
+                "status": "available"
+            },
+            {
+                "id": "D3",
+                "row": "D",
+                "number": 3,
+                "status": "available"
+            },
+            {
+                "id": "D4",
+                "row": "D",
+                "number": 4,
+                "status": "available"
+            },
+            {
+                "id": "D5",
+                "row": "D",
+                "number": 5,
+                "status": "available"
+            },
+            {
+                "id": "D6",
+                "row": "D",
+                "number": 6,
+                "status": "available"
+            },
+            {
+                "id": "D7",
+                "row": "D",
+                "number": 7,
+                "status": "available"
+            },
+            {
+                "id": "D8",
+                "row": "D",
+                "number": 8,
+                "status": "available"
+            }
+        ]
+    }
+]

@@ -10,10 +10,13 @@ export type Booking = {
   time: string
   theatre: string
   day: string
+  bookingId?: string
+  bookingShowId?: string
+  seatIds?: string[]
 }
 
 export default function Confirmation({ m, booking, onHome }: { m: Movie; booking: Booking; onHome: () => void }) {
-  const bookingId = useMemo(() => 'FAB-' + Math.random().toString(36).slice(2, 8).toUpperCase(), [])
+  const bookingId = useMemo(() => booking.bookingId || 'FAB-' + Math.random().toString(36).slice(2, 8).toUpperCase(), [booking.bookingId])
   return (
     <div className="mx-auto flex max-w-lg flex-col items-center px-4 py-12">
       <div className="grad-bg pulse-ring relative mb-5 grid h-16 w-16 place-items-center rounded-full text-white">

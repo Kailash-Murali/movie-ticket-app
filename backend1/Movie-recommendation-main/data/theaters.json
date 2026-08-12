@@ -1,0 +1,73 @@
+[
+  {
+    "id": "T001",
+    "name": "PVR Phoenix Marketcity",
+    "location": "Velachery, Chennai",
+    "distance_km": 4.5,
+    "formats": [
+      "2D",
+      "IMAX"
+    ],
+    "amenities": [
+      "Dolby Atmos",
+      "Recliner",
+      "Food Court"
+    ]
+  },
+  {
+    "id": "T002",
+    "name": "Luxe Cinemas Express Avenue",
+    "location": "Royapettah, Chennai",
+    "distance_km": 6.2,
+    "formats": [
+      "2D",
+      "IMAX"
+    ],
+    "amenities": [
+      "Dolby Atmos",
+      "VIP Lounge",
+      "Recliner"
+    ]
+  },
+  {
+    "id": "T003",
+    "name": "SPI Palazzo Forum Mall",
+    "location": "Vadapalani, Chennai",
+    "distance_km": 3.2,
+    "formats": [
+      "2D",
+      "IMAX"
+    ],
+    "amenities": [
+      "IMAX Laser",
+      "Dolby Atmos",
+      "Recliner"
+    ]
+  },
+  {
+    "id": "T004",
+    "name": "INOX National Arcot",
+    "location": "Anna Nagar, Chennai",
+    "distance_km": 8.7,
+    "formats": [
+      "2D"
+    ],
+    "amenities": [
+      "4K Projection",
+      "Standard Seating"
+    ]
+  },
+  {
+    "id": "T005",
+    "name": "AGS Cinemas T. Nagar",
+    "location": "T. Nagar, Chennai",
+    "distance_km": 5.0,
+    "formats": [
+      "2D"
+    ],
+    "amenities": [
+      "Dolby 7.1",
+      "Standard Seating"
+    ]
+  }
+]

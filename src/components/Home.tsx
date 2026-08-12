@@ -183,20 +183,27 @@ export default function Home({ city, onOpenChat, onSelect, onBook }: {
     getTrendingMovies().then(setTrending)
   }, [city])
 
+  const allMovies = recommended.length ? recommended : MOVIES
+  const heroMovies = trending.length ? trending : allMovies
+
   const matches = (m: Movie) => {
     if (active === 'All') return true
     if (active === 'New Releases') return m.tags.includes('New')
     if (['IMAX', '3D'].includes(active)) return m.tags.includes(active)
-    return m.languages.includes(active)
+    return m.languages.some((l) => l.toLowerCase() === active.toLowerCase())
   }
-  const filtered = MOVIES.filter(matches)
+  const filtered = allMovies.filter(matches)
 
-  const loading = !recommended.length
+  const loading = !recommended.length && !MOVIES.length
+
+  const upcomingMovies = allMovies.filter((m) => m.tags.includes('New')).length
+    ? allMovies.filter((m) => m.tags.includes('New'))
+    : allMovies.slice(0, 6)
 
   return (
     <div className="mx-auto max-w-[1280px] space-y-14 px-4 pb-24 pt-6 sm:px-8">
       <HeroPrompt onOpenChat={onOpenChat} />
-      <Hero movies={trending} onSelect={onSelect} onBook={onBook} />
+      <Hero movies={heroMovies} onSelect={onSelect} onBook={onBook} />
 
       {/* Recommended */}
       <section id="for-you" className="scroll-mt-24">
@@ -214,7 +221,7 @@ export default function Home({ city, onOpenChat, onSelect, onBook }: {
           </div>
         ) : (
           <div className="no-scrollbar -mx-4 flex gap-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
-            {recommended.map((m) => (
+            {allMovies.map((m) => (
               <div key={m.id} className="w-40 sm:w-44"><PosterCard m={m} onSelect={onSelect} onBook={onBook} reason /></div>
             ))}
           </div>
@@ -222,7 +229,7 @@ export default function Home({ city, onOpenChat, onSelect, onBook }: {
       </section>
 
       {/* This Week's Releases */}
-      <Row id="upcoming" title="This Week's Releases" movies={MOVIES.filter((m) => m.tags.includes('New'))} onSelect={onSelect} onBook={onBook} />
+      <Row id="upcoming" title="This Week's Releases" movies={upcomingMovies} onSelect={onSelect} onBook={onBook} />
 
       {/* Only in Theatres + filters */}
       <section>

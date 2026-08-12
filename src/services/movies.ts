@@ -12,6 +12,7 @@
  * Components must import from here, not hardcode poster URLs.
  */
 import { MOVIES, POSTER_PLACEHOLDER, type Movie, type Showtime } from '../data'
+import { apiFetchMovies, apiFetchMovie, apiFetchShows, toFrontendMovie } from './api'
 
 // Would be: import.meta.env.VITE_TMDB_KEY
 const TMDB_KEY: string | undefined = undefined
@@ -24,38 +25,63 @@ export function buildPosterUrl(path: string | null | undefined, size = 'w500') {
   return `${TMDB_IMAGE_BASE}/${size}${path}`
 }
 
-const delay = <T,>(value: T, ms = 400) =>
-  new Promise<T>((resolve) => setTimeout(() => resolve(value), ms))
-
-export function searchMovies(query: string): Promise<Movie[]> {
+export async function searchMovies(query: string): Promise<Movie[]> {
   const q = query.trim().toLowerCase()
-  if (!q) return delay([])
-  const hits = MOVIES.filter(
-    (m) =>
-      m.title.toLowerCase().includes(q) ||
-      m.genres.some((g) => g.toLowerCase().includes(q)) ||
-      m.languages.some((l) => l.toLowerCase().includes(q)),
-  )
-  return delay(hits.length ? hits : MOVIES.slice(0, 3))
+  if (!q) return []
+  try {
+    const all = await apiFetchMovies()
+    const hits = all.filter(
+      (m) =>
+        m.title.toLowerCase().includes(q) ||
+        m.genres.some((g) => g.toLowerCase().includes(q)) ||
+        m.languages.some((l) => l.toLowerCase().includes(q)),
+    )
+    return hits.length ? hits : all.slice(0, 3)
+  } catch {
+    const hits = MOVIES.filter(
+      (m) =>
+        m.title.toLowerCase().includes(q) ||
+        m.genres.some((g) => g.toLowerCase().includes(q)) ||
+        m.languages.some((l) => l.toLowerCase().includes(q)),
+    )
+    return hits.length ? hits : MOVIES.slice(0, 3)
+  }
 }
 
-export function getMovieDetails(tmdbId: number): Promise<Movie | undefined> {
-  return delay(MOVIES.find((m) => m.tmdbId === tmdbId))
+export async function getMovieDetails(id: string): Promise<Movie | undefined> {
+  return apiFetchMovie(id)
 }
 
-export function getTrendingMovies(): Promise<Movie[]> {
-  return delay([...MOVIES].sort((a, b) => b.voteCount - a.voteCount))
+export async function getTrendingMovies(): Promise<Movie[]> {
+  try {
+    const all = await apiFetchMovies()
+    return [...all].sort((a, b) => b.voteCount - a.voteCount)
+  } catch {
+    return [...MOVIES].sort((a, b) => b.voteCount - a.voteCount)
+  }
 }
 
-export function getRecommendedMovies(_preferences?: { genres?: string[]; city?: string }): Promise<Movie[]> {
-  return delay(MOVIES)
+export async function getRecommendedMovies(_preferences?: { genres?: string[]; city?: string }): Promise<Movie[]> {
+  return apiFetchMovies()
 }
 
-export function getMovieShowtimes(
-  tmdbId: number,
+export async function getMovieShowtimes(
+  movieId: string,
   _date?: string,
   _city?: string,
 ): Promise<Showtime[]> {
-  const movie = MOVIES.find((m) => m.tmdbId === tmdbId)
-  return delay(movie?.showtimes ?? [])
+  try {
+    const shows = await apiFetchShows(movieId, _date)
+    if (shows.length) {
+      return shows.map((s) => ({
+        time: s.time,
+        format: s.format,
+        price: s.price,
+      }))
+    }
+  } catch {
+    // fall through
+  }
+  const movie = MOVIES.find((m) => m.id === movieId)
+  return movie?.showtimes ?? []
 }

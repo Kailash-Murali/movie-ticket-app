@@ -1,0 +1,2648 @@
+[
+  {
+    "id": "S001",
+    "movie_id": "M001",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S002",
+    "movie_id": "M001",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S003",
+    "movie_id": "M001",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S004",
+    "movie_id": "M001",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S005",
+    "movie_id": "M001",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S006",
+    "movie_id": "M001",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S007",
+    "movie_id": "M001",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "IMAX",
+    "price": 400
+  },
+  {
+    "id": "S008",
+    "movie_id": "M001",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "IMAX",
+    "price": 400
+  },
+  {
+    "id": "S009",
+    "movie_id": "M001",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S010",
+    "movie_id": "M001",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S011",
+    "movie_id": "M001",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "IMAX",
+    "price": 400
+  },
+  {
+    "id": "S012",
+    "movie_id": "M001",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S013",
+    "movie_id": "M002",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S014",
+    "movie_id": "M002",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S015",
+    "movie_id": "M002",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S016",
+    "movie_id": "M002",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S017",
+    "movie_id": "M002",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S018",
+    "movie_id": "M002",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S019",
+    "movie_id": "M002",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S020",
+    "movie_id": "M002",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S021",
+    "movie_id": "M002",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S022",
+    "movie_id": "M002",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S023",
+    "movie_id": "M002",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S024",
+    "movie_id": "M002",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S025",
+    "movie_id": "M003",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S026",
+    "movie_id": "M003",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S027",
+    "movie_id": "M003",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S028",
+    "movie_id": "M003",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S029",
+    "movie_id": "M003",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S030",
+    "movie_id": "M003",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S031",
+    "movie_id": "M003",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S032",
+    "movie_id": "M003",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S033",
+    "movie_id": "M003",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S034",
+    "movie_id": "M003",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S035",
+    "movie_id": "M003",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S036",
+    "movie_id": "M003",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S037",
+    "movie_id": "M003",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S038",
+    "movie_id": "M003",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S039",
+    "movie_id": "M003",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S040",
+    "movie_id": "M003",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S041",
+    "movie_id": "M003",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S042",
+    "movie_id": "M003",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S043",
+    "movie_id": "M004",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S044",
+    "movie_id": "M004",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S045",
+    "movie_id": "M004",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S046",
+    "movie_id": "M004",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S047",
+    "movie_id": "M004",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S048",
+    "movie_id": "M004",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S049",
+    "movie_id": "M004",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S050",
+    "movie_id": "M004",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S051",
+    "movie_id": "M004",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S052",
+    "movie_id": "M004",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S053",
+    "movie_id": "M004",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S054",
+    "movie_id": "M004",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S055",
+    "movie_id": "M005",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S056",
+    "movie_id": "M005",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S057",
+    "movie_id": "M005",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S058",
+    "movie_id": "M005",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S059",
+    "movie_id": "M005",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S060",
+    "movie_id": "M005",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S061",
+    "movie_id": "M005",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S062",
+    "movie_id": "M005",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S063",
+    "movie_id": "M005",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S064",
+    "movie_id": "M005",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S065",
+    "movie_id": "M005",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S066",
+    "movie_id": "M005",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S067",
+    "movie_id": "M006",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S068",
+    "movie_id": "M006",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S069",
+    "movie_id": "M006",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S070",
+    "movie_id": "M006",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S071",
+    "movie_id": "M006",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S072",
+    "movie_id": "M006",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S073",
+    "movie_id": "M006",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S074",
+    "movie_id": "M006",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S075",
+    "movie_id": "M006",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "IMAX",
+    "price": 400
+  },
+  {
+    "id": "S076",
+    "movie_id": "M006",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S077",
+    "movie_id": "M006",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "IMAX",
+    "price": 400
+  },
+  {
+    "id": "S078",
+    "movie_id": "M006",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S079",
+    "movie_id": "M006",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S080",
+    "movie_id": "M006",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S081",
+    "movie_id": "M006",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S082",
+    "movie_id": "M006",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S083",
+    "movie_id": "M006",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S084",
+    "movie_id": "M006",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S085",
+    "movie_id": "M007",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S086",
+    "movie_id": "M007",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S087",
+    "movie_id": "M007",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S088",
+    "movie_id": "M007",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S089",
+    "movie_id": "M007",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S090",
+    "movie_id": "M007",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S091",
+    "movie_id": "M007",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S092",
+    "movie_id": "M007",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S093",
+    "movie_id": "M007",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S094",
+    "movie_id": "M007",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S095",
+    "movie_id": "M007",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S096",
+    "movie_id": "M007",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S097",
+    "movie_id": "M007",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S098",
+    "movie_id": "M007",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S099",
+    "movie_id": "M007",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S100",
+    "movie_id": "M007",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S101",
+    "movie_id": "M007",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S102",
+    "movie_id": "M007",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S103",
+    "movie_id": "M008",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S104",
+    "movie_id": "M008",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S105",
+    "movie_id": "M008",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S106",
+    "movie_id": "M008",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S107",
+    "movie_id": "M008",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S108",
+    "movie_id": "M008",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S109",
+    "movie_id": "M008",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S110",
+    "movie_id": "M008",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S111",
+    "movie_id": "M008",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S112",
+    "movie_id": "M008",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S113",
+    "movie_id": "M008",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S114",
+    "movie_id": "M008",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S115",
+    "movie_id": "M008",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S116",
+    "movie_id": "M008",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S117",
+    "movie_id": "M008",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S118",
+    "movie_id": "M008",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S119",
+    "movie_id": "M008",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S120",
+    "movie_id": "M008",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S121",
+    "movie_id": "M009",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S122",
+    "movie_id": "M009",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S123",
+    "movie_id": "M009",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S124",
+    "movie_id": "M009",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S125",
+    "movie_id": "M009",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S126",
+    "movie_id": "M009",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S127",
+    "movie_id": "M009",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S128",
+    "movie_id": "M009",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S129",
+    "movie_id": "M009",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S130",
+    "movie_id": "M009",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S131",
+    "movie_id": "M009",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S132",
+    "movie_id": "M009",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S133",
+    "movie_id": "M010",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S134",
+    "movie_id": "M010",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S135",
+    "movie_id": "M010",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S136",
+    "movie_id": "M010",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S137",
+    "movie_id": "M010",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S138",
+    "movie_id": "M010",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S139",
+    "movie_id": "M010",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S140",
+    "movie_id": "M010",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S141",
+    "movie_id": "M010",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S142",
+    "movie_id": "M010",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S143",
+    "movie_id": "M010",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S144",
+    "movie_id": "M010",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S145",
+    "movie_id": "M010",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S146",
+    "movie_id": "M010",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S147",
+    "movie_id": "M010",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S148",
+    "movie_id": "M010",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S149",
+    "movie_id": "M010",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S150",
+    "movie_id": "M010",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S151",
+    "movie_id": "M011",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S152",
+    "movie_id": "M011",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S153",
+    "movie_id": "M011",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S154",
+    "movie_id": "M011",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S155",
+    "movie_id": "M011",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S156",
+    "movie_id": "M011",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S157",
+    "movie_id": "M011",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S158",
+    "movie_id": "M011",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S159",
+    "movie_id": "M011",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S160",
+    "movie_id": "M011",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S161",
+    "movie_id": "M011",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S162",
+    "movie_id": "M011",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S163",
+    "movie_id": "M012",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S164",
+    "movie_id": "M012",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S165",
+    "movie_id": "M012",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S166",
+    "movie_id": "M012",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S167",
+    "movie_id": "M012",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S168",
+    "movie_id": "M012",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S169",
+    "movie_id": "M012",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S170",
+    "movie_id": "M012",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S171",
+    "movie_id": "M012",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S172",
+    "movie_id": "M012",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S173",
+    "movie_id": "M012",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S174",
+    "movie_id": "M012",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S175",
+    "movie_id": "M012",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S176",
+    "movie_id": "M012",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S177",
+    "movie_id": "M012",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S178",
+    "movie_id": "M012",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S179",
+    "movie_id": "M012",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S180",
+    "movie_id": "M012",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S181",
+    "movie_id": "M013",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S182",
+    "movie_id": "M013",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S183",
+    "movie_id": "M013",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S184",
+    "movie_id": "M013",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S185",
+    "movie_id": "M013",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S186",
+    "movie_id": "M013",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S187",
+    "movie_id": "M013",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S188",
+    "movie_id": "M013",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S189",
+    "movie_id": "M013",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S190",
+    "movie_id": "M013",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S191",
+    "movie_id": "M013",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S192",
+    "movie_id": "M013",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S193",
+    "movie_id": "M014",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S194",
+    "movie_id": "M014",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S195",
+    "movie_id": "M014",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S196",
+    "movie_id": "M014",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S197",
+    "movie_id": "M014",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S198",
+    "movie_id": "M014",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S199",
+    "movie_id": "M014",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S200",
+    "movie_id": "M014",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S201",
+    "movie_id": "M014",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S202",
+    "movie_id": "M014",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S203",
+    "movie_id": "M014",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "IMAX",
+    "price": 450
+  },
+  {
+    "id": "S204",
+    "movie_id": "M014",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S205",
+    "movie_id": "M015",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S206",
+    "movie_id": "M015",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S207",
+    "movie_id": "M015",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S208",
+    "movie_id": "M015",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S209",
+    "movie_id": "M015",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S210",
+    "movie_id": "M015",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S211",
+    "movie_id": "M015",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S212",
+    "movie_id": "M015",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S213",
+    "movie_id": "M015",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S214",
+    "movie_id": "M015",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S215",
+    "movie_id": "M015",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S216",
+    "movie_id": "M015",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S217",
+    "movie_id": "M016",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S218",
+    "movie_id": "M016",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S219",
+    "movie_id": "M016",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S220",
+    "movie_id": "M016",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S221",
+    "movie_id": "M016",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S222",
+    "movie_id": "M016",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S223",
+    "movie_id": "M016",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S224",
+    "movie_id": "M016",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S225",
+    "movie_id": "M016",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S226",
+    "movie_id": "M016",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S227",
+    "movie_id": "M016",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S228",
+    "movie_id": "M016",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S229",
+    "movie_id": "M017",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S230",
+    "movie_id": "M017",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S231",
+    "movie_id": "M017",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S232",
+    "movie_id": "M017",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S233",
+    "movie_id": "M017",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S234",
+    "movie_id": "M017",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S235",
+    "movie_id": "M017",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S236",
+    "movie_id": "M017",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S237",
+    "movie_id": "M017",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S238",
+    "movie_id": "M017",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S239",
+    "movie_id": "M017",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S240",
+    "movie_id": "M017",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S241",
+    "movie_id": "M017",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S242",
+    "movie_id": "M017",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S243",
+    "movie_id": "M017",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S244",
+    "movie_id": "M017",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S245",
+    "movie_id": "M017",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S246",
+    "movie_id": "M017",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S247",
+    "movie_id": "M018",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S248",
+    "movie_id": "M018",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S249",
+    "movie_id": "M018",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S250",
+    "movie_id": "M018",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S251",
+    "movie_id": "M018",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S252",
+    "movie_id": "M018",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S253",
+    "movie_id": "M018",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S254",
+    "movie_id": "M018",
+    "theater_id": "T003",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S255",
+    "movie_id": "M018",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S256",
+    "movie_id": "M018",
+    "theater_id": "T003",
+    "date": "2026-08-13",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S257",
+    "movie_id": "M018",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S258",
+    "movie_id": "M018",
+    "theater_id": "T003",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S259",
+    "movie_id": "M019",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S260",
+    "movie_id": "M019",
+    "theater_id": "T004",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S261",
+    "movie_id": "M019",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S262",
+    "movie_id": "M019",
+    "theater_id": "T004",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S263",
+    "movie_id": "M019",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S264",
+    "movie_id": "M019",
+    "theater_id": "T004",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S265",
+    "movie_id": "M019",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S266",
+    "movie_id": "M019",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S267",
+    "movie_id": "M019",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S268",
+    "movie_id": "M019",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S269",
+    "movie_id": "M019",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S270",
+    "movie_id": "M019",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S271",
+    "movie_id": "M019",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S272",
+    "movie_id": "M019",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S273",
+    "movie_id": "M019",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S274",
+    "movie_id": "M019",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S275",
+    "movie_id": "M019",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S276",
+    "movie_id": "M019",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S277",
+    "movie_id": "M020",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "13:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S278",
+    "movie_id": "M020",
+    "theater_id": "T001",
+    "date": "2026-08-12",
+    "time": "20:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S279",
+    "movie_id": "M020",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S280",
+    "movie_id": "M020",
+    "theater_id": "T001",
+    "date": "2026-08-13",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S281",
+    "movie_id": "M020",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S282",
+    "movie_id": "M020",
+    "theater_id": "T001",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S283",
+    "movie_id": "M020",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S284",
+    "movie_id": "M020",
+    "theater_id": "T005",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S285",
+    "movie_id": "M020",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S286",
+    "movie_id": "M020",
+    "theater_id": "T005",
+    "date": "2026-08-13",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S287",
+    "movie_id": "M020",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "17:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S288",
+    "movie_id": "M020",
+    "theater_id": "T005",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 220
+  },
+  {
+    "id": "S289",
+    "movie_id": "M020",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "17:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S290",
+    "movie_id": "M020",
+    "theater_id": "T002",
+    "date": "2026-08-12",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S291",
+    "movie_id": "M020",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S292",
+    "movie_id": "M020",
+    "theater_id": "T002",
+    "date": "2026-08-13",
+    "time": "21:45",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S293",
+    "movie_id": "M020",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "22:15",
+    "format": "2D",
+    "price": 270
+  },
+  {
+    "id": "S294",
+    "movie_id": "M020",
+    "theater_id": "T002",
+    "date": "2026-08-14",
+    "time": "10:30",
+    "format": "2D",
+    "price": 270
+  }
+]

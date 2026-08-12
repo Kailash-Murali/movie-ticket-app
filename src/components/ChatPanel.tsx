@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { Sparkles, X, Send, Ticket, Check, Mic } from 'lucide-react'
 import { MOVIES, type Movie } from '../data'
-import { getRecommendedMovies } from '../services/movies'
+import { apiChat, toFrontendMovie, type ChatResponse, type BackendMovie } from '../services/api'
 import PosterImage from './PosterImage'
 
 type RichCard =
   | { kind: 'movies'; movies: Movie[] }
   | { kind: 'seats'; seats: string; screen: string }
-  | { kind: 'confirmation'; movie: string; seats: string; total: number }
+  | { kind: 'confirmation'; movie: string; seats: string; total: number; bookingId?: string }
 
 type Msg = {
   id: number
@@ -25,25 +25,71 @@ const QUICK_REPLIES = [
 
 let idc = 100
 
-async function reply(text: string): Promise<Msg[]> {
-  const t = text.toLowerCase()
-  if (t.includes('seat') || t.includes('back') || t.includes('together') || t.includes('cheap') || t.includes('row')) {
-    return [
-      { id: idc++, role: 'nia', text: 'Found 2 seats together near the back with a clean sightline. Want me to hold them?' },
-      { id: idc++, role: 'nia', card: { kind: 'seats', seats: 'H10, H11', screen: 'Screen 3 · Fabula Luxe' } },
-    ]
+async function reply(text: string, sessionId: string | null): Promise<{ msgs: Msg[]; newSessionId: string | null }> {
+  try {
+    const res: ChatResponse = await apiChat(text, sessionId || undefined)
+    const msgs: Msg[] = []
+
+    // Always show the reply text
+    if (res.reply) {
+      msgs.push({ id: idc++, role: 'nia', text: res.reply })
+    }
+
+    // If the response contains movie recommendations, render them as cards
+    const data = res.data as Record<string, unknown>
+    if (data?.recommendations && Array.isArray(data.recommendations)) {
+      const recs = data.recommendations as Array<{ movie_id?: string; title?: string; movie?: BackendMovie; match_score?: number; reasons?: string[] }>
+      const movies: Movie[] = []
+      for (const rec of recs.slice(0, 3)) {
+        if (rec.movie) {
+          movies.push(toFrontendMovie(rec.movie))
+        } else if (rec.movie_id && rec.title) {
+          // Minimal movie card from chat data
+          movies.push({
+            id: rec.movie_id, tmdbId: 0, title: rec.title, originalTitle: rec.title,
+            cert: 'UA', genres: [], languages: [], runtime: '', year: '2026',
+            releaseDate: '', rating: '0', voteCount: 0, poster: '', backdrop: '',
+            synopsis: '', reason: rec.reasons?.join(', ') || '', tags: [], cast: [], showtimes: [],
+          })
+        }
+      }
+      if (movies.length) {
+        msgs.push({ id: idc++, role: 'nia', card: { kind: 'movies', movies } })
+      }
+    }
+
+    // Seat recommendation data
+    if (data?.recommended_seats && Array.isArray(data.recommended_seats)) {
+      const seats = (data.recommended_seats as string[]).join(', ')
+      msgs.push({ id: idc++, role: 'nia', card: { kind: 'seats', seats, screen: (data.reason as string) || 'AI Recommended' } })
+    }
+
+    // Booking confirmation data
+    if (res.intent === 'BOOK_TICKETS' && data?.booking_id) {
+      const bd = data as { booking_id?: string; movie?: string; seats?: string[]; total_price?: number }
+      msgs.push({
+        id: idc++, role: 'nia', card: {
+          kind: 'confirmation',
+          movie: (bd.movie as string) || 'Movie',
+          seats: (bd.seats as string[])?.join(', ') || '',
+          total: (bd.total_price as number) || 0,
+          bookingId: bd.booking_id,
+        },
+      })
+    }
+
+    if (!msgs.length) {
+      msgs.push({ id: idc++, role: 'nia', text: res.reply || "I'm here to help! Tell me what kind of movie you're looking for." })
+    }
+
+    return { msgs, newSessionId: res.session_id }
+  } catch {
+    // Fallback to simple local response
+    return {
+      msgs: [{ id: idc++, role: 'nia', text: "I'm having trouble reaching the server. Please make sure the backend is running on port 8000." }],
+      newSessionId: sessionId,
+    }
   }
-  if (t.includes('book') && (t.includes('tonight') || t.includes('2') || t.includes('seat'))) {
-    return [
-      { id: idc++, role: 'nia', text: 'Locked in for tonight. Here is your confirmation.' },
-      { id: idc++, role: 'nia', card: { kind: 'confirmation', movie: 'The Odyssey', seats: 'H10, H11', total: 940 } },
-    ]
-  }
-  const movies = await getRecommendedMovies()
-  return [
-    { id: idc++, role: 'nia', text: 'I found these options near you. Would you like the earliest show, the best-rated option, or seats together?' },
-    { id: idc++, role: 'nia', card: { kind: 'movies', movies: movies.slice(0, 3) } },
-  ]
 }
 
 function MovieRichCard({ m, onView, onShowtimes, onBook }: {
@@ -88,6 +134,7 @@ export default function ChatPanel({
   ])
   const [input, setInput] = useState('')
   const [typing, setTyping] = useState(false)
+  const [sessionId, setSessionId] = useState<string | null>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const seededRef = useRef<string | undefined>(undefined)
@@ -98,8 +145,9 @@ export default function ChatPanel({
     setMessages((m) => [...m, { id: idc++, role: 'user', text: clean }])
     setInput('')
     setTyping(true)
-    reply(clean).then((msgs) => {
+    reply(clean, sessionId).then(({ msgs, newSessionId }) => {
       setTyping(false)
+      if (newSessionId) setSessionId(newSessionId)
       setMessages((m) => [...m, ...msgs])
       inputRef.current?.focus()
     })
@@ -190,7 +238,7 @@ export default function ChatPanel({
                       </div>
                     </div>
                     <div className="mt-2 flex items-center justify-between text-xs">
-                      <span style={{ color: 'var(--muted)' }}>Paid</span>
+                      <span style={{ color: 'var(--muted)' }}>{m.card.bookingId ? `Booking ${m.card.bookingId}` : 'Paid'}</span>
                       <span className="font-semibold">₹{m.card.total}</span>
                     </div>
                     <button className="mt-2 flex w-full items-center justify-center gap-1.5 rounded-full border py-1.5 text-xs font-semibold" style={{ borderColor: 'var(--hairline)' }}><Ticket size={13} /> Download ticket</button>

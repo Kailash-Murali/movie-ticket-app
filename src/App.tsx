@@ -7,6 +7,7 @@ import SeatSelection from './components/SeatSelection'
 import Confirmation, { type Booking } from './components/Confirmation'
 import ChatPanel from './components/ChatPanel'
 import { MOVIES, type Movie } from './data'
+import { apiCreateBooking } from './services/api'
 
 type View = 'home' | 'detail' | 'seats' | 'confirm'
 
@@ -41,6 +42,24 @@ export default function App() {
     if (view !== 'home') { setView('home'); setTimeout(scroll, 80) } else scroll()
   }
 
+  const handleConfirm = async (data: Booking) => {
+    if (data.bookingShowId && data.seatIds && data.seatIds.length > 0) {
+      try {
+        const res = await apiCreateBooking(data.bookingShowId, data.seatIds)
+        setBooking({
+          ...data,
+          bookingId: res.booking_id,
+        })
+        go('confirm')
+        return
+      } catch (err) {
+        console.warn('Backend booking submission failed, using offline fallback:', err)
+      }
+    }
+    setBooking(data)
+    go('confirm')
+  }
+
   return (
     <div className="min-h-screen">
       <Navbar city={city} setCity={setCity} dark={dark} toggleTheme={() => setDark((d) => !d)} onHome={() => go('home')} onNavigate={navigate} />
@@ -51,7 +70,7 @@ export default function App() {
         <SeatSelection
           m={movie}
           onBack={() => go('detail')}
-          onConfirm={(data) => { setBooking(data); go('confirm') }}
+          onConfirm={handleConfirm}
         />
       )}
       {view === 'confirm' && booking && <Confirmation m={movie} booking={booking} onHome={() => go('home')} />}
